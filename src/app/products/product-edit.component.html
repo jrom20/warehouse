@@ -1,0 +1,86 @@
+<div class="card">
+    <div class="card-header">
+      {{pageTitle}}
+    </div>
+  
+    <div class="card-body">
+      <form novalidate>
+        <div class="form-group row mb-2">
+          <label class="col-md-2 col-form-label" for="productNameId">Product Name</label>
+          <div class="col-md-8">
+            <input class="form-control"
+                   id="productNameId"
+                   type="text"
+                   placeholder="Name (required)"/>
+          </div>
+        </div>
+  
+        <div class="form-group row mb-2">
+          <label class="col-md-2 col-form-label" for="productCodeId">Product Code</label>
+          <div class="col-md-8">
+            <input class="form-control"
+                   id="productCodeId"
+                   type="text"
+                   placeholder="Code (required)"/>
+          </div>
+        </div>
+  
+        <div class="form-group row mb-2"> 
+          <label class="col-md-2 col-form-label" for="starRatingId">Star Rating (1-5)</label>
+          <div class="col-md-8">
+            <input class="form-control"
+                   id="starRatingId"
+                   type="text"
+                   placeholder="Rating (1-5)" />
+          </div>
+        </div>
+            
+        <div class="form-group row mb-2">
+          <label class="col-md-2 col-form-label"
+                 for="starRatingId">Image</label>
+  
+          <div class="col-md-8">
+            <input class="form-control"
+                   id="starRatingId"
+                   type="text"
+                   placeholder="Url Image" />
+          </div>
+        </div>
+
+        <div class="form-group row mb-2">
+          <label class="col-md-2 col-form-label"
+                 for="descriptionId">Description</label>
+  
+          <div class="col-md-8">
+            <textarea class="form-control"
+                      id="descriptionId"
+                      placeholder="Description"
+                      rows=3>
+            </textarea>
+          </div>
+        </div>
+  
+        <div class="form-group row mb-2">
+          <div class="offset-md-2 col-md-4">
+            <button class="btn btn-primary mr-3"
+                    style="width:80px;"
+                    type="submit">
+              Save
+            </button>
+            <button class="btn btn-outline-secondary mr-3"
+                    style="width:80px;"
+                    type="button"
+                    title="Cancel your edits">
+              Cancel
+            </button>
+            <button class="btn btn-outline-warning"
+                    style="width:80px"
+                    type="button"
+                    title="Delete this product">
+              Delete
+            </button>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
